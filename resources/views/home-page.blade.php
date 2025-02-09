@@ -59,7 +59,7 @@
         <script>
             document.addEventListener("DOMContentLoaded", function () {
                 const sections = document.querySelectorAll("section"); // Ambil semua section
-                const navLinks = document.querySelectorAll("a"); // Ambil semua link navbar
+                const navLinks = document.querySelectorAll("nav a"); // Ambil semua link navbar
             
                 const observer = new IntersectionObserver(
                     (entries) => {
@@ -75,7 +75,7 @@
             
                         // Tambahkan class aktif pada link yang sesuai
                         document
-                            .querySelector(`a[href="#${id}"]`)
+                            .querySelector(`nav a[href="#${id}"]`)
                             .classList.add("font-bold", "text-blue-500");
                         }
                     });
