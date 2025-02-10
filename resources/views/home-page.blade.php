@@ -32,8 +32,8 @@
             <section id="home" class="flex flex-col md:flex-row items-center justify-between py-10">
                 <div class="max-w-xl">
                     <h1 class="text-7xl font-bold">
-                        <span class="text-blue-500">Engineering</span>
-                        <span class="text-white block">Project</span>
+                        <span class="text-blue-500">Profile and</span>
+                        <span class="text-white block">Portfolio</span>
                     </h1>
                     <p class="mt-4 text-lg">My Personal Portfolio Project As An Industrial Engineering Student</p>
                     <a href="#" class="mt-6 inline-block px-6 py-2 border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white transition">roroanandasetyawardhani@gmail.com</a>
@@ -43,16 +43,49 @@
                 </div>
             </section>
             <section id="about" class="my-10 py-14 text-center">
-                <h1 class="text-7xl font-bold text-center my-5">Learn <br><span class="text-blue-500">About Me</span></h1>
+                <h1 class="text-5xl font-bold text-center my-5">Learn <span class="text-blue-500">About Me</span></h1>
                 <div class="my-3 bg-blue-500 h-1 w-96 mx-auto"></div>
-                <div class="flex flex-col md:flex-row items-center md:items-start gap-10 mt-5">
+                <div class="flex flex-col md:flex-row items-center md:items-center justify-center gap-10 mt-5">
                     <div class="relative w-75 h-auto overflow-hidden">
                         <img src="{{ asset('storage/images/roro2.png') }}" alt="Profile" class="w-full h-full object-cover">
                     </div>
                     <div class="max-w-3xl">
-                        <h1 class="text-4xl font-bold text-left">Roro Ananda Setyawardhani</span></h1>
-                        <p class="text-white mt-4 text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi quae magnam quis ipsam dolor tempora iure soluta, incidunt quisquam assumenda placeat fugiat consequuntur vitae, voluptas maxime dolores. Similique dignissimos et ratione nisi omnis tempora! Deleniti asperiores, totam aliquam tempora corporis, quaerat consectetur architecto possimus adipisci perspiciatis quos tempore facere. Optio, sequi tempore ratione accusamus illo excepturi aut voluptatum facere assumenda recusandae voluptas vel aperiam molestias eum animi temporibus, nesciunt ut modi. Odio illo porro atque molestias sunt dolor mollitia excepturi temporibus, delectus eligendi laboriosam? Nulla iste consectetur quisquam officia quibusdam expedita corporis voluptates. Assumenda accusantium aut corporis totam corrupti quaerat?</p>
+                        <h1 class="text-3xl font-bold text-left">Roro Ananda Setyawardhani</span></h1>
+                        <p class="text-white mt-4 text-justify">I am focused on the field of Manufacturing Systems, with expertise in managing and optimizing production processes and quality control. In my role as an Assistant in the Manufacturing Systems Laboratory, I have gained a deep understanding of production workflows, manufacturing technologies, and efficient implementation of strategies to improve operational performance. This experience has strengthened my ability to analyze and solve problems in the context of the manufacturing industry.</p>
                     </div>
+                </div>
+                <h1 class="text-5xl font-bold text-center my-5 pt-10">Educational <span class="text-blue-500">Background</span></h1>
+                <div class="my-3 bg-blue-500 h-1 w-96 mx-auto"></div>
+                <div class="text-left mt-5 py-10 flex flex-col md:flex-row gap-10">
+                    <div class="relative w-75 h-auto overflow-hidden">
+                        <img src="{{ asset('storage/images/roro3.png') }}" alt="Profile" class="w-full h-full object-cover">
+                    </div>
+                    <ol class="relative border-s border-blue-500">                  
+                        <li class="mb-10 ms-4">
+                            <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
+                            <time class="mb-1 text-sm font-normal leading-none text-blue-500">July 2010 - June 2016</time>
+                            <h3 class="text-lg font-semibold text-white">SDN</h3>
+                            <p class="mb-4 text-base font-normal text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam nemo molestias dolorum architecto deserunt. Ea libero cupiditate hic tenetur rerum.</p>
+                        </li>
+                        <li class="mb-10 ms-4">
+                            <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
+                            <time class="mb-1 text-sm font-normal leading-none text-blue-500">July 2016 - June 2019</time>
+                            <h3 class="text-lg font-semibold text-white">SMPN</h3>
+                            <p class="mb-4 text-base font-normal text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam nemo molestias dolorum architecto deserunt. Ea libero cupiditate hic tenetur rerum.</p>
+                        </li>
+                        <li class="mb-10 ms-4">
+                            <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
+                            <time class="mb-1 text-sm font-normal leading-none text-blue-500">July 2019 - June 2022</time>
+                            <h3 class="text-lg font-semibold text-white">SMAN</h3>
+                            <p class="mb-4 text-base font-normal text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam nemo molestias dolorum architecto deserunt. Ea libero cupiditate hic tenetur rerum.</p>
+                        </li>
+                        <li class="mb-10 ms-4">
+                            <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
+                            <time class="mb-1 text-sm font-normal leading-none text-blue-500">August 2022 - Now</time>
+                            <h3 class="text-lg font-semibold text-white">Universitas Trunojoyo Madura</h3>
+                            <p class="mb-4 text-base font-normal text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam nemo molestias dolorum architecto deserunt. Ea libero cupiditate hic tenetur rerum.</p>
+                        </li>
+                    </ol>
                 </div>
             </section>
         </main>
@@ -77,6 +110,8 @@
                         document
                             .querySelector(`nav a[href="#${id}"]`)
                             .classList.add("font-bold", "text-blue-500");
+
+                        console.log(id);
                         }
                     });
                     },
