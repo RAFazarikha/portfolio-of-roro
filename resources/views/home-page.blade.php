@@ -64,26 +64,26 @@
                         <li class="mb-10 ms-4">
                             <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
                             <time class="mb-1 text-sm font-normal leading-none text-blue-500">July 2010 - June 2016</time>
-                            <h3 class="text-lg font-semibold text-white">SDN</h3>
-                            <p class="mb-4 text-base font-normal text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam nemo molestias dolorum architecto deserunt. Ea libero cupiditate hic tenetur rerum.</p>
+                            <h3 class="text-lg font-semibold text-white">Elemantary School</h3>
+                            <p class="mb-4 text-base font-normal text-white">Saya menempuh pendidikan SD di surabaya. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, non. Lorem ipsum dolor sit amet.</p>
                         </li>
                         <li class="mb-10 ms-4">
                             <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
                             <time class="mb-1 text-sm font-normal leading-none text-blue-500">July 2016 - June 2019</time>
-                            <h3 class="text-lg font-semibold text-white">SMPN</h3>
-                            <p class="mb-4 text-base font-normal text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam nemo molestias dolorum architecto deserunt. Ea libero cupiditate hic tenetur rerum.</p>
+                            <h3 class="text-lg font-semibold text-white">Junior Highschool</h3>
+                            <p class="mb-4 text-base font-normal text-white">Saya menempuh pendidikan tingkat menengah pertama di SMPN 2 Surabaya. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam illo quasi cumque quas eius voluptas.</p>
                         </li>
                         <li class="mb-10 ms-4">
                             <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
                             <time class="mb-1 text-sm font-normal leading-none text-blue-500">July 2019 - June 2022</time>
-                            <h3 class="text-lg font-semibold text-white">SMAN</h3>
-                            <p class="mb-4 text-base font-normal text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam nemo molestias dolorum architecto deserunt. Ea libero cupiditate hic tenetur rerum.</p>
+                            <h3 class="text-lg font-semibold text-white">Senior Highschool</h3>
+                            <p class="mb-4 text-base font-normal text-white">Saya menempuh pendidikan tingkat menengah atas di SMAN 7 Surabaya. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam illo quasi cumque quas eius voluptas.</p>
                         </li>
                         <li class="mb-10 ms-4">
                             <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
                             <time class="mb-1 text-sm font-normal leading-none text-blue-500">August 2022 - Now</time>
-                            <h3 class="text-lg font-semibold text-white">Universitas Trunojoyo Madura</h3>
-                            <p class="mb-4 text-base font-normal text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam nemo molestias dolorum architecto deserunt. Ea libero cupiditate hic tenetur rerum.</p>
+                            <h3 class="text-lg font-semibold text-white">Trunojoyo Madura University</h3>
+                            <p class="mb-4 text-base font-normal text-white">Saya sekarang menempuh pendidikan S1 Teknik Industri di Universitas Trunojoyo Madura. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ab? Quae, sint?</p>
                         </li>
                     </ol>
                 </div>
