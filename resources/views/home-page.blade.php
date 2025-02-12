@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <title>{{ config('app.name', 'Laravel') }}</title>
@@ -11,13 +11,11 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
-    <body class="bg-black text-white">
+    <body class="bg-black text-white overflow-x-hidden">
         <header class="flex justify-between items-center py-6 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sticky top-0 bg-black z-10">
             <div class="flex items-center space-x-2">
                 <span class="text-blue-500 text-2xl font-bold"></span>
@@ -90,16 +88,13 @@
                                 <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
                                 <time class="mb-1 text-sm font-normal leading-none text-blue-500">August 2022 - Now</time>
                                 <h3 class="text-lg font-semibold text-white">Trunojoyo Madura University</h3>
-                                <p class="mb-4 text-base font-normal text-white">Saya saat ini menempuh pendidikan tinggi di Universitas Trunojoyo Madura, dengan fokus pada bidang Industrial Engineering untuk mendalami logistik dan manajemen rantai pasokan.</p>
+                                <p class="mb-4 text-base font-normal text-white">Saya saat ini menempuh pendidikan tinggi di Universitas Trunojoyo Madura, dengan fokus pada bidang Industrial Engineering untuk mendalami logistik dan manajemen rantai pasokan.</p>
                             </li>
                         </ol>
                     </div>
                 </div>
             </section>
         </main>
-        <script>
-            AOS.init();
-        </script>
         <script>
             document.addEventListener("DOMContentLoaded", function () {
                 const sections = document.querySelectorAll("section"); // Ambil semua section
