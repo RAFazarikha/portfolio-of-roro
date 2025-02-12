@@ -11,8 +11,11 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
     <body class="bg-black text-white">
         <header class="flex justify-between items-center py-6 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sticky top-0 bg-black z-10">
@@ -23,6 +26,7 @@
             <nav class="space-x-6">
                 <a href="#home" class="hover:text-blue-500">Home</a>
                 <a href="#about" class="hover:text-blue-500">About Me</a>
+                <a href="#education" class="hover:text-blue-500">Education</a>
                 <a href="#" class="hover:text-blue-500">Project</a>
                 <a href="#" class="hover:text-blue-500">Contact</a>
             </nav>
@@ -38,7 +42,7 @@
                     <p class="mt-4 text-lg">My Personal Portfolio Project As An Industrial Engineering Student</p>
                     <a href="#" class="mt-6 inline-block px-6 py-2 border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white transition">roroanandasetyawardhani@gmail.com</a>
                 </div>
-                <div class="relative mt-10 md:mt-0">
+                <div class="relative mt-10 md:mt-0" data-aos="fade-left">
                     <img src="{{ asset('storage/images/roro.png') }}" alt="Engineer" class="w-90 h-auto rounded-lg">
                 </div>
             </section>
@@ -46,49 +50,56 @@
                 <h1 class="text-5xl font-bold text-center my-5">Learn <span class="text-blue-500">About Me</span></h1>
                 <div class="my-3 bg-blue-500 h-1 w-96 mx-auto"></div>
                 <div class="flex flex-col md:flex-row items-center md:items-center justify-center gap-10 mt-5">
-                    <div class="relative w-75 h-auto overflow-hidden">
+                    <div class="relative w-75 h-auto overflow-hidden" data-aos="fade-right">
                         <img src="{{ asset('storage/images/roro2.png') }}" alt="Profile" class="w-full h-full object-cover">
                     </div>
-                    <div class="max-w-3xl">
+                    <div class="max-w-3xl" data-aos="fade-left">
                         <h1 class="text-3xl font-bold text-left">Roro Ananda Setyawardhani</span></h1>
                         <p class="text-white mt-4 text-justify">I am focused on the field of Manufacturing Systems, with expertise in managing and optimizing production processes and quality control. In my role as an Assistant in the Manufacturing Systems Laboratory, I have gained a deep understanding of production workflows, manufacturing technologies, and efficient implementation of strategies to improve operational performance. This experience has strengthened my ability to analyze and solve problems in the context of the manufacturing industry.</p>
                     </div>
                 </div>
+            </section>
+            <section id="education" class="my-10 py-14 text-center">
                 <h1 class="text-5xl font-bold text-center my-5 pt-10">Educational <span class="text-blue-500">Background</span></h1>
                 <div class="my-3 bg-blue-500 h-1 w-96 mx-auto"></div>
-                <div class="text-left mt-5 py-10 flex flex-col md:flex-row gap-10">
-                    <div class="relative w-75 h-auto overflow-hidden">
-                        <img src="{{ asset('storage/images/roro3.png') }}" alt="Profile" class="w-full h-full object-cover">
+                <div class="text-left mt-5 py-10 grid grid-cols-2 md:flex-row">
+                    <div class="w-max h-auto overflow-hidden" data-aos="fade-right">
+                        <img src="{{ asset('storage/images/roro4.png') }}" alt="Profile" class="w-full h-auto">
                     </div>
-                    <ol class="relative border-s border-blue-500">                  
-                        <li class="mb-10 ms-4">
-                            <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
-                            <time class="mb-1 text-sm font-normal leading-none text-blue-500">July 2010 - June 2016</time>
-                            <h3 class="text-lg font-semibold text-white">Elemantary School</h3>
-                            <p class="mb-4 text-base font-normal text-white">Saya menempuh pendidikan SD di surabaya. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, non. Lorem ipsum dolor sit amet.</p>
-                        </li>
-                        <li class="mb-10 ms-4">
-                            <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
-                            <time class="mb-1 text-sm font-normal leading-none text-blue-500">July 2016 - June 2019</time>
-                            <h3 class="text-lg font-semibold text-white">Junior Highschool</h3>
-                            <p class="mb-4 text-base font-normal text-white">Saya menempuh pendidikan tingkat menengah pertama di SMPN 2 Surabaya. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam illo quasi cumque quas eius voluptas.</p>
-                        </li>
-                        <li class="mb-10 ms-4">
-                            <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
-                            <time class="mb-1 text-sm font-normal leading-none text-blue-500">July 2019 - June 2022</time>
-                            <h3 class="text-lg font-semibold text-white">Senior Highschool</h3>
-                            <p class="mb-4 text-base font-normal text-white">Saya menempuh pendidikan tingkat menengah atas di SMAN 7 Surabaya. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam illo quasi cumque quas eius voluptas.</p>
-                        </li>
-                        <li class="mb-10 ms-4">
-                            <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
-                            <time class="mb-1 text-sm font-normal leading-none text-blue-500">August 2022 - Now</time>
-                            <h3 class="text-lg font-semibold text-white">Trunojoyo Madura University</h3>
-                            <p class="mb-4 text-base font-normal text-white">Saya sekarang menempuh pendidikan S1 Teknik Industri di Universitas Trunojoyo Madura. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ab? Quae, sint?</p>
-                        </li>
-                    </ol>
+                    <div data-aos="fade-left">
+                        <ol class="relative border-s border-blue-500">                  
+                            <li class="mb-10 ms-4">
+                                <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-blue-500">July 2010 - June 2016</time>
+                                <h3 class="text-lg font-semibold text-white">Elemantary School</h3>
+                                <p class="mb-4 text-base font-normal text-white">Saya menempuh pendidikan dasar di SDN Rangkah VII Surabaya, di mana saya mulai membangun fondasi akademik dan sosial.</p>
+                            </li>
+                            <li class="mb-10 ms-4">
+                                <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-blue-500">July 2016 - June 2019</time>
+                                <h3 class="text-lg font-semibold text-white">Junior Highschool</h3>
+                                <p class="mb-4 text-base font-normal text-white">Saya melanjutkan pendidikan menengah pertama di SMPN 2 Surabaya, yang memberikan pengalaman belajar yang lebih mendalam dan beragam.</p>
+                            </li>
+                            <li class="mb-10 ms-4">
+                                <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-blue-500">July 2019 - June 2022</time>
+                                <h3 class="text-lg font-semibold text-white">Senior Highschool</h3>
+                                <p class="mb-4 text-base font-normal text-white">Pendidikan menengah atas saya jalani di SMAN 7 Surabaya, tempat saya mengembangkan keterampilan akademik dan organisasi lebih lanjut.</p>
+                            </li>
+                            <li class="mb-10 ms-4">
+                                <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-blue-500">August 2022 - Now</time>
+                                <h3 class="text-lg font-semibold text-white">Trunojoyo Madura University</h3>
+                                <p class="mb-4 text-base font-normal text-white">Saya saat ini menempuh pendidikan tinggi di Universitas Trunojoyo Madura, dengan fokus pada bidang Industrial Engineering untuk mendalami logistik dan manajemen rantai pasokan.</p>
+                            </li>
+                        </ol>
+                    </div>
                 </div>
             </section>
         </main>
+        <script>
+            AOS.init();
+        </script>
         <script>
             document.addEventListener("DOMContentLoaded", function () {
                 const sections = document.querySelectorAll("section"); // Ambil semua section
