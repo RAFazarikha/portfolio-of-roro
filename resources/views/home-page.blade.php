@@ -25,7 +25,7 @@
                 <a href="#home" class="hover:text-blue-500">Home</a>
                 <a href="#about" class="hover:text-blue-500">About Me</a>
                 <a href="#education" class="hover:text-blue-500">Education</a>
-                <a href="#" class="hover:text-blue-500">Project</a>
+                <a href="#project" class="hover:text-blue-500">Project</a>
                 <a href="#" class="hover:text-blue-500">Contact</a>
             </nav>
         </header>
@@ -92,6 +92,22 @@
                             </li>
                         </ol>
                     </div>
+                </div>
+            </section>
+            <section id="project" class="my-10 py-14 text-center">
+                <h1 class="text-5xl font-bold text-center my-5 pt-10">My <span class="text-blue-500">Project</span></h1>
+                <div class="my-3 bg-blue-500 h-1 w-96 mx-auto"></div>
+                <div class="text-left mt-5 py-10 grid grid-cols-3 md:flex-row">
+                    <x-card-project :data="[
+                        'judul' => 'Analisis dan Penerapan Konsep Fisika Dasar dalam Pengukuran dan Rangkaian Listrik',
+                        'short-description' => 'Proyek ini bertujuan untuk mengembangkan pemahaman terhadap konsep dasar Fisika melalui eksperimen yang terstruktur dan sistematis.',
+                        'description-1' => 'Proyek ini bertujuan untuk mengembangkan pemahaman terhadap konsep dasar Fisika melalui eksperimen yang terstruktur dan sistematis. Fokus utama proyek mencakup :',
+                        'description-2' => 'Hasil proyek ini menghasilkan panduan eksperimental yang dapat digunakan sebagai referensi dalam praktikum Fisika Dasar. Data yang diperoleh menunjukkan peningkatan akurasi dalam pengukuran besaran fisis serta pemahaman yang lebih baik terkait analisis rangkaian listrik. Selain itu, proyek ini juga memberikan evaluasi terhadap kesalahan pengukuran dan faktor-faktor yang mempengaruhi ketelitian hasil eksperimen, yang dapat menjadi acuan dalam pengembangan metode praktikum yang lebih efektif di masa mendatang.'
+                    ]">
+                        <li>Teknik pengukuran menggunakan jangka sorong dan mikrometer sekrup untuk meningkatkan akurasi dalam menentukan dimensi suatu objek.</li>
+                        <li>Metode pengukuran volume zat cair sebagai dasar dalam analisis fluida.</li>
+                        <li>Validasi Hukum Ohm melalui percobaan dengan berbagai nilai resistor dalam rangkaian seri dan paralel, guna memahami hubungan antara tegangan, arus, dan hambatan listrik.</li>
+                    </x-card-project>
                 </div>
             </section>
         </main>
