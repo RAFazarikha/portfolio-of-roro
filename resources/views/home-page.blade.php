@@ -108,6 +108,63 @@
                         <li>Metode pengukuran volume zat cair sebagai dasar dalam analisis fluida.</li>
                         <li>Validasi Hukum Ohm melalui percobaan dengan berbagai nilai resistor dalam rangkaian seri dan paralel, guna memahami hubungan antara tegangan, arus, dan hambatan listrik.</li>
                     </x-card-project>
+
+                    <x-card-project :data="[
+                        'judul' => 'Implementasi Autodesk Inventor dalam Pembuatan Sketch 2D dan 3D untuk Desain Teknik',
+                        'short-description' => 'Proyek ini bertujuan untuk meningkatkan pemahaman terhadap proses desain teknik melalui penggunaan perangkat lunak Autodesk Inventor.',
+                        'description-1' => 'Proyek ini bertujuan untuk meningkatkan pemahaman terhadap proses desain teknik melalui penggunaan perangkat lunak Autodesk Inventor. Fokus utama proyek mencakup :',
+                        'description-2' => 'Proyek ini menghasilkan pedoman praktis untuk penggunaan Autodesk Inventor dalam desain teknik, yang dapat digunakan oleh mahasiswa maupun praktisi untuk meningkatkan efisiensi dalam pembuatan model digital. Hasil proyek menunjukkan bahwa dengan memahami dan mengaplikasikan berbagai fitur pada perangkat lunak ini, pengguna dapat menghasilkan desain yang lebih akurat dan realistis. Selain itu, evaluasi dilakukan untuk mengidentifikasi tantangan yang dihadapi dalam penggunaan software dan memberikan solusi dalam meningkatkan efektivitas pembelajaran desain teknik berbasis CAD.'
+                    ]">
+                        <li>Pengenalan dan penggunaan toolbar dasar Autodesk Inventor dalam pembuatan sketch 2D dan 3D.</li>
+                        <li>Penggunaan fitur-fitur seperti extrude, revolve, hole, dan shell untuk membentuk model 3D secara presisi.</li>
+                        <li>Penerapan standar gambar teknik sesuai dengan kaidah industri dalam proses desain.</li>
+                    </x-card-project>
+
+                    <x-card-project :data="[
+                        'judul' => 'Analisis dan Implementasi Proses Manufaktur dalam Produksi Produk Kursi',
+                        'short-description' => 'Proyek ini bertujuan untuk mengaplikasikan konsep proses manufaktur dalam produksi produk kursi melalui berbagai metode produksi.',
+                        'description-1' => 'Proyek ini bertujuan untuk mengaplikasikan konsep proses manufaktur dalam produksi produk kursi melalui berbagai metode produksi. Fokus utama proyek mencakup :',
+                        'description-2' => 'Hasil proyek ini menghasilkan dokumentasi lengkap mengenai tahapan proses manufaktur yang dapat digunakan sebagai referensi dalam pengajaran dan pengembangan industri kecil. Data yang diperoleh menunjukkan peningkatan efisiensi dalam produksi serta analisis kualitas produk yang lebih terukur. Selain itu, proyek ini memberikan evaluasi terhadap efisiensi proses, kesalahan manufaktur, serta rekomendasi untuk optimalisasi produksi di masa depan.'
+                    ]">
+                        <li>Pengukuran dimensi, toleransi, dan suaian komponen kursi untuk memastikan kesesuaian dalam perakitan.</li>
+                        <li>Penerapan fungsi kerja bangku seperti pemotongan, pengikiran, dan penggerindaan dalam tahap awal manufaktur.</li>
+                        <li>Proses pemesinan drilling dan turning untuk membentuk komponen dengan presisi tinggi.</li>
+                        <li>Teknik penyambungan -pengelasan- guna memastikan kekuatan dan daya tahan struktur kursi.</li>
+                        <li>Implementasi teknologi 3D printing dalam pembuatan komponen tertentu.</li>
+                        <li>Proses assembly dan finishing untuk memastikan kualitas akhir produk.</li>
+                        <li>Penerapan metode pengendalian kualitas untuk mengidentifikasi dan mengurangi cacat produksi.</li>
+                        <li>Perancangan desain kemasan sebagai tahap akhir dalam siklus produksi.</li>
+                    </x-card-project>
+                    <x-card-project :data="[
+                        'judul' => 'Perancangan Tata Letak Fasilitas untuk Optimalisasi Aliran Material dan Efisiensi',
+                        'short-description' => 'Proyek ini bertujuan untuk mengembangkan perancangan tata letak fasilitas yang optimal guna meningkatkan efisiensi aliran material dan mengurangi biaya produksi.',
+                        'description-1' => 'Proyek ini bertujuan untuk mengembangkan perancangan tata letak fasilitas yang optimal guna meningkatkan efisiensi aliran material dan mengurangi biaya produksi. Studi ini dilakukan pada PT Myra Jaya Industri dengan beberapa fokus utama, yaitu :',
+                        'description-2' => ' '
+                    ]">
+                        <li>Teknik pengukuran menggunakan jangka sorong dan mikrometer sekrup untuk meningkatkan akurasi dalam menentukan dimensi suatu objek.</li>
+                        <li>Metode pengukuran volume zat cair sebagai dasar dalam analisis fluida.</li>
+                        <li>Validasi Hukum Ohm melalui percobaan dengan berbagai nilai resistor dalam rangkaian seri dan paralel, guna memahami hubungan antara tegangan, arus, dan hambatan listrik.</li>
+                    </x-card-project>
+                    <x-card-project :data="[
+                        'judul' => 'Analisis dan Penerapan Konsep Fisika Dasar dalam Pengukuran dan Rangkaian Listrik',
+                        'short-description' => 'Proyek ini bertujuan untuk mengembangkan pemahaman terhadap konsep dasar Fisika melalui eksperimen yang terstruktur dan sistematis.',
+                        'description-1' => 'Proyek ini bertujuan untuk mengembangkan pemahaman terhadap konsep dasar Fisika melalui eksperimen yang terstruktur dan sistematis. Fokus utama proyek mencakup :',
+                        'description-2' => 'Hasil proyek ini menghasilkan panduan eksperimental yang dapat digunakan sebagai referensi dalam praktikum Fisika Dasar. Data yang diperoleh menunjukkan peningkatan akurasi dalam pengukuran besaran fisis serta pemahaman yang lebih baik terkait analisis rangkaian listrik. Selain itu, proyek ini juga memberikan evaluasi terhadap kesalahan pengukuran dan faktor-faktor yang mempengaruhi ketelitian hasil eksperimen, yang dapat menjadi acuan dalam pengembangan metode praktikum yang lebih efektif di masa mendatang.'
+                    ]">
+                        <li>Teknik pengukuran menggunakan jangka sorong dan mikrometer sekrup untuk meningkatkan akurasi dalam menentukan dimensi suatu objek.</li>
+                        <li>Metode pengukuran volume zat cair sebagai dasar dalam analisis fluida.</li>
+                        <li>Validasi Hukum Ohm melalui percobaan dengan berbagai nilai resistor dalam rangkaian seri dan paralel, guna memahami hubungan antara tegangan, arus, dan hambatan listrik.</li>
+                    </x-card-project>
+                    <x-card-project :data="[
+                        'judul' => 'Analisis dan Penerapan Konsep Fisika Dasar dalam Pengukuran dan Rangkaian Listrik',
+                        'short-description' => 'Proyek ini bertujuan untuk mengembangkan pemahaman terhadap konsep dasar Fisika melalui eksperimen yang terstruktur dan sistematis.',
+                        'description-1' => 'Proyek ini bertujuan untuk mengembangkan pemahaman terhadap konsep dasar Fisika melalui eksperimen yang terstruktur dan sistematis. Fokus utama proyek mencakup :',
+                        'description-2' => 'Hasil proyek ini menghasilkan panduan eksperimental yang dapat digunakan sebagai referensi dalam praktikum Fisika Dasar. Data yang diperoleh menunjukkan peningkatan akurasi dalam pengukuran besaran fisis serta pemahaman yang lebih baik terkait analisis rangkaian listrik. Selain itu, proyek ini juga memberikan evaluasi terhadap kesalahan pengukuran dan faktor-faktor yang mempengaruhi ketelitian hasil eksperimen, yang dapat menjadi acuan dalam pengembangan metode praktikum yang lebih efektif di masa mendatang.'
+                    ]">
+                        <li>Teknik pengukuran menggunakan jangka sorong dan mikrometer sekrup untuk meningkatkan akurasi dalam menentukan dimensi suatu objek.</li>
+                        <li>Metode pengukuran volume zat cair sebagai dasar dalam analisis fluida.</li>
+                        <li>Validasi Hukum Ohm melalui percobaan dengan berbagai nilai resistor dalam rangkaian seri dan paralel, guna memahami hubungan antara tegangan, arus, dan hambatan listrik.</li>
+                    </x-card-project>
                 </div>
             </section>
         </main>

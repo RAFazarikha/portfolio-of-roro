@@ -1,15 +1,15 @@
-<div class="max-w-sm p-6 bg-black border border-blue-500 rounded-lg shadow-sm">
+<div class="max-w-sm p-6 bg-black border border-blue-500 rounded-lg shadow-sm mb-5">
     <a href="#">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">{{ $data['judul'] }}</h5>
     </a>
     <p class="mb-3 font-normal text-gray-700">
         {{ $data['short-description'] }}
     </p>
-    <button data-modal-target="medium-modal" data-modal-toggle="medium-modal" class="block w-full md:w-auto text-white bg-blue-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-500 font-medium rounded-lg text-sm px-5 py-2.5 text-center" type="button" >
+    <button data-modal-target="large-modal" data-modal-toggle="large-modal" class="block w-full md:w-auto text-white bg-blue-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-500 font-medium rounded-lg text-sm px-5 py-2.5 text-center" type="button" >
         Read more
     </button>
-    <div id="medium-modal" tabindex="-1" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
-        <div class="relative w-full max-w-lg max-h-full">
+    <div id="large-modal" tabindex="-1" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+        <div class="relative w-full max-w-4xl max-h-full">
             <!-- Modal content -->
             <div class="relative bg-black rounded-lg shadow-sm border border-blue-500">
                 <!-- Modal header -->
@@ -29,7 +29,7 @@
                     <p class="text-justify leading-relaxed text-white">
                         {{ $data['description-1'] }}
                     </p>
-                    <ul class="max-w-md space-y-1 list-disc list-inside text-justify text-white">
+                    <ul class="space-y-1 list-disc list-inside text-justify text-white">
                         {{ $slot }}
                     </ul>
                     <p class="text-justify leading-relaxed text-white">
