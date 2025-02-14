@@ -99,6 +99,7 @@
                 <div class="my-3 bg-blue-500 h-1 w-96 mx-auto"></div>
                 <div class="text-left mt-5 py-10 grid grid-cols-3 md:flex-row">
                     <x-card-project :data="[
+                        'id' => 'project-1',
                         'judul' => 'Analisis dan Penerapan Konsep Fisika Dasar dalam Pengukuran dan Rangkaian Listrik',
                         'short-description' => 'Proyek ini bertujuan untuk mengembangkan pemahaman terhadap konsep dasar Fisika melalui eksperimen yang terstruktur dan sistematis.',
                         'description-1' => 'Proyek ini bertujuan untuk mengembangkan pemahaman terhadap konsep dasar Fisika melalui eksperimen yang terstruktur dan sistematis. Fokus utama proyek mencakup :',
@@ -110,6 +111,7 @@
                     </x-card-project>
 
                     <x-card-project :data="[
+                        'id' => 'project-2',
                         'judul' => 'Implementasi Autodesk Inventor dalam Pembuatan Sketch 2D dan 3D untuk Desain Teknik',
                         'short-description' => 'Proyek ini bertujuan untuk meningkatkan pemahaman terhadap proses desain teknik melalui penggunaan perangkat lunak Autodesk Inventor.',
                         'description-1' => 'Proyek ini bertujuan untuk meningkatkan pemahaman terhadap proses desain teknik melalui penggunaan perangkat lunak Autodesk Inventor. Fokus utama proyek mencakup :',
@@ -121,6 +123,7 @@
                     </x-card-project>
 
                     <x-card-project :data="[
+                        'id' => 'project-3',
                         'judul' => 'Analisis dan Implementasi Proses Manufaktur dalam Produksi Produk Kursi',
                         'short-description' => 'Proyek ini bertujuan untuk mengaplikasikan konsep proses manufaktur dalam produksi produk kursi melalui berbagai metode produksi.',
                         'description-1' => 'Proyek ini bertujuan untuk mengaplikasikan konsep proses manufaktur dalam produksi produk kursi melalui berbagai metode produksi. Fokus utama proyek mencakup :',
@@ -129,23 +132,29 @@
                         <li>Pengukuran dimensi, toleransi, dan suaian komponen kursi untuk memastikan kesesuaian dalam perakitan.</li>
                         <li>Penerapan fungsi kerja bangku seperti pemotongan, pengikiran, dan penggerindaan dalam tahap awal manufaktur.</li>
                         <li>Proses pemesinan drilling dan turning untuk membentuk komponen dengan presisi tinggi.</li>
-                        <li>Teknik penyambungan -pengelasan- guna memastikan kekuatan dan daya tahan struktur kursi.</li>
+                        <li>Teknik penyambungan (pengelasan) guna memastikan kekuatan dan daya tahan struktur kursi.</li>
                         <li>Implementasi teknologi 3D printing dalam pembuatan komponen tertentu.</li>
                         <li>Proses assembly dan finishing untuk memastikan kualitas akhir produk.</li>
                         <li>Penerapan metode pengendalian kualitas untuk mengidentifikasi dan mengurangi cacat produksi.</li>
                         <li>Perancangan desain kemasan sebagai tahap akhir dalam siklus produksi.</li>
                     </x-card-project>
+
                     <x-card-project :data="[
+                        'id' => 'project-4',
                         'judul' => 'Perancangan Tata Letak Fasilitas untuk Optimalisasi Aliran Material dan Efisiensi',
                         'short-description' => 'Proyek ini bertujuan untuk mengembangkan perancangan tata letak fasilitas yang optimal guna meningkatkan efisiensi aliran material dan mengurangi biaya produksi.',
                         'description-1' => 'Proyek ini bertujuan untuk mengembangkan perancangan tata letak fasilitas yang optimal guna meningkatkan efisiensi aliran material dan mengurangi biaya produksi. Studi ini dilakukan pada PT Myra Jaya Industri dengan beberapa fokus utama, yaitu :',
-                        'description-2' => ' '
+                        'description-2' => 'Hasil proyek ini menghasilkan desain tata letak fasilitas yang lebih efisien dengan mengoptimalkan pemanfaatan ruang, mengurangi biaya material handling, serta meningkatkan produktivitas produksi. Dengan pendekatan sistematis melalui tujuh modul praktikum, proyek ini memberikan rekomendasi desain tata letak yang dapat diterapkan dalam industri manufaktur guna mendukung proses produksi yang lebih efektif dan ekonomis.'
                     ]">
-                        <li>Teknik pengukuran menggunakan jangka sorong dan mikrometer sekrup untuk meningkatkan akurasi dalam menentukan dimensi suatu objek.</li>
-                        <li>Metode pengukuran volume zat cair sebagai dasar dalam analisis fluida.</li>
-                        <li>Validasi Hukum Ohm melalui percobaan dengan berbagai nilai resistor dalam rangkaian seri dan paralel, guna memahami hubungan antara tegangan, arus, dan hambatan listrik.</li>
+                        <li>Analisis kebutuhan luas pabrik dan pemilihan lokasi strategis berdasarkan berbagai faktor industri.</li>
+                        <li>Penyusunan diagram aliran material (Flow Diagram) dan pemetaan aliran proses produksi untuk meminimalkan waktu perpindahan material.</li>
+                        <li>Penggunaan metode Activity Relationship Chart (ARC) dan Activity Relationship Diagram (ARD) untuk menyusun tata letak fasilitas yang lebih efisien.</li>
+                        <li>Perhitungan biaya material handling (Material Handling Cost) guna mengurangi biaya 2woperasional produksi.</li>
+                        <li>Penggunaan metode Activity Relationship Chart (ARC) dan Activity Relationship Diagram (ARD) untuk menyusun tata letak fasilitas yang lebih efisien.</li>
                     </x-card-project>
+
                     <x-card-project :data="[
+                        'id' => 'project-5',
                         'judul' => 'Analisis dan Penerapan Konsep Fisika Dasar dalam Pengukuran dan Rangkaian Listrik',
                         'short-description' => 'Proyek ini bertujuan untuk mengembangkan pemahaman terhadap konsep dasar Fisika melalui eksperimen yang terstruktur dan sistematis.',
                         'description-1' => 'Proyek ini bertujuan untuk mengembangkan pemahaman terhadap konsep dasar Fisika melalui eksperimen yang terstruktur dan sistematis. Fokus utama proyek mencakup :',
@@ -155,7 +164,9 @@
                         <li>Metode pengukuran volume zat cair sebagai dasar dalam analisis fluida.</li>
                         <li>Validasi Hukum Ohm melalui percobaan dengan berbagai nilai resistor dalam rangkaian seri dan paralel, guna memahami hubungan antara tegangan, arus, dan hambatan listrik.</li>
                     </x-card-project>
+
                     <x-card-project :data="[
+                        'id' => 'project-6',
                         'judul' => 'Analisis dan Penerapan Konsep Fisika Dasar dalam Pengukuran dan Rangkaian Listrik',
                         'short-description' => 'Proyek ini bertujuan untuk mengembangkan pemahaman terhadap konsep dasar Fisika melalui eksperimen yang terstruktur dan sistematis.',
                         'description-1' => 'Proyek ini bertujuan untuk mengembangkan pemahaman terhadap konsep dasar Fisika melalui eksperimen yang terstruktur dan sistematis. Fokus utama proyek mencakup :',
