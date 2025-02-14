@@ -1,6 +1,6 @@
 <div class="max-w-sm p-6 bg-black border border-blue-500 rounded-lg shadow-sm mb-5" data-aos="flip-left">
-    <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">{{ $data['judul'] }}</h5>
+    <a href="{{ $data['link'] }}">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white hover:text-blue-500">{{ $data['judul'] }}</h5>
     </a>
     <p class="mb-3 font-normal text-gray-700 text-justify">
         {{ $data['short-description'] }}
