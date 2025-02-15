@@ -74,16 +74,16 @@
             <section id="education" class="my-10 py-14 text-center">
                 <h1 class="text-5xl font-bold text-center my-5 pt-10">Educational <span class="text-blue-500">Background</span></h1>
                 <div class="my-3 bg-blue-500 h-1 w-96 mx-auto"></div>
-                <div class="text-left mt-5 py-10 grid grid-cols-2 md:flex-row">
-                    <div class="w-max h-auto overflow-hidden" data-aos="fade-right">
+                <div class="text-left mt-5 py-10 flex flex-col md:flex-row items-center md:items-start">
+                    <div class="w-full md:w-max h-auto overflow-hidden mb-5 md:mb-0" data-aos="fade-right">
                         <img src="{{ asset('storage/images/roro4.png') }}" alt="Profile" class="w-full h-auto">
                     </div>
-                    <div data-aos="fade-left">
+                    <div data-aos="fade-left" class="w-full">
                         <ol class="relative border-s border-blue-500">                  
                             <li class="mb-10 ms-4">
                                 <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
                                 <time class="mb-1 text-sm font-normal leading-none text-blue-500">July 2010 - June 2016</time>
-                                <h3 class="text-lg font-semibold text-white">Elemantary School</h3>
+                                <h3 class="text-lg font-semibold text-white">Elementary School</h3>
                                 <p class="mb-4 text-base font-normal text-white">Saya menempuh pendidikan dasar di SDN Rangkah VII Surabaya, di mana saya mulai membangun fondasi akademik dan sosial.</p>
                             </li>
                             <li class="mb-10 ms-4">
@@ -106,7 +106,7 @@
                             </li>
                         </ol>
                     </div>
-                </div>
+                </div>                
             </section>
             <section id="project" class="my-10 py-14 text-center">
                 <h1 class="text-5xl font-bold text-center my-5 pt-10">My <span class="text-blue-500">Project</span></h1>
