@@ -111,7 +111,7 @@
             <section id="project" class="my-10 py-14 text-center">
                 <h1 class="text-5xl font-bold text-center my-5 pt-10">My <span class="text-blue-500">Project</span></h1>
                 <div class="my-3 bg-blue-500 h-1 w-96 mx-auto"></div>
-                <div class="text-left mt-5 py-10 grid grid-cols-3 md:flex-row">
+                <div class="text-left mt-5 py-10 flex flex-wrap gap-5 md:flex-row">
                     <x-card-project :data="[
                         'id' => 'project-1',
                         'judul' => 'Analisis dan Penerapan Konsep Fisika Dasar dalam Pengukuran dan Rangkaian Listrik',
