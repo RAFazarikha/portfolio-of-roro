@@ -75,10 +75,10 @@
                 <h1 class="text-5xl font-bold text-center my-5 pt-10">Educational <span class="text-blue-500">Background</span></h1>
                 <div class="my-3 bg-blue-500 h-1 w-96 mx-auto"></div>
                 <div class="text-left mt-5 py-10 flex flex-col md:flex-row items-center md:items-start">
-                    <div class="w-full md:w-max h-auto overflow-hidden mb-5 md:mb-0" data-aos="fade-right">
+                    <div class="w-1/2 md:w-max h-auto overflow-hidden mb-5 md:mb-0" data-aos="fade-right">
                         <img src="{{ asset('storage/images/roro4.png') }}" alt="Profile" class="w-full h-auto">
                     </div>
-                    <div data-aos="fade-left" class="w-full">
+                    <div data-aos="fade-left" class="w-1/2">
                         <ol class="relative border-s border-blue-500">                  
                             <li class="mb-10 ms-4">
                                 <div class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-500"></div>
