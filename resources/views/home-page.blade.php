@@ -202,6 +202,8 @@
                     </x-card-project>
                 </div>
             </section>
+            <section id="project" class="my-10 py-14 text-center">
+            </section>
         </main>
         <script>
             document.addEventListener("DOMContentLoaded", function () {
