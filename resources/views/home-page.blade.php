@@ -206,23 +206,11 @@
                 <h1 class="text-5xl font-bold text-center my-5 pt-10">My <span class="text-blue-500">Contact</span></h1>
                 <div class="my-3 bg-blue-500 h-1 w-96 mx-auto"></div>
                 <div class="flex justify-center space-x-6 mt-6">
-                    <a href="https://facebook.com" target="_blank" class="text-blue-600 text-4xl">
+                    <a href="https://api.whatsapp.com/send/?phone=62881027104776&text&type=phone_number&app_absent=0" target="_blank" class="text-blue-600 text-4xl">
                         <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
                     </a>
-                    <a href="https://facebook.com" target="_blank" class="text-blue-600 text-4xl">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                    <a href="https://twitter.com" target="_blank" class="text-blue-400 text-4xl">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://instagram.com" target="_blank" class="text-pink-500 text-4xl">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://linkedin.com" target="_blank" class="text-blue-700 text-4xl">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com" target="_blank" class="text-gray-800 text-4xl">
-                        <i class="fab fa-github"></i>
+                    <a href="https://www.instagram.com/roroananda/" target="_blank" class="text-pink-500 text-4xl">
+                        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
                     </a>
                 </div>
             </section>
