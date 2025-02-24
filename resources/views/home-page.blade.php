@@ -208,13 +208,15 @@
                 <div class="flex justify-center space-x-6 mt-6">
                     <a href="https://api.whatsapp.com/send/?phone=62881027104776&text&type=phone_number&app_absent=0" 
                     target="_blank" 
-                    class="text-6xl py-4 px-5 rounded-full hover:bg-blue-500 transition duration-300">
+                    class="text-6xl py-4 px-5 rounded-full hover:bg-blue-500 transition duration-300"
+                    data-aos="fade-right">
                         <i class="fa-brands fa-whatsapp text-white"></i>
                     </a>
 
                     <a href="https://www.instagram.com/roroananda/" 
                     target="_blank" 
-                    class="text-6xl py-4 px-5 rounded-full hover:bg-blue-500 transition duration-300">
+                    class="text-6xl py-4 px-5 rounded-full hover:bg-blue-500 transition duration-300"
+                    data-aos="fade-left">
                         <i class="fa-brands fa-instagram text-white"></i>
                     </a>
                 </div>
