@@ -202,15 +202,20 @@
                     </x-card-project>
                 </div>
             </section>
-            <section id="project" class="my-10 py-14 text-center">
-                <h1 class="text-5xl font-bold text-center my-5 pt-10">My <span class="text-blue-500">Contact</span></h1>
+            <section id="contact" class="mt-10 mb-40 py-14 text-center">
+                <h1 class="text-5xl font-bold text-center my-5 pt-10">Contact <span class="text-blue-500">Me</span></h1>
                 <div class="my-3 bg-blue-500 h-1 w-96 mx-auto"></div>
                 <div class="flex justify-center space-x-6 mt-6">
-                    <a href="https://api.whatsapp.com/send/?phone=62881027104776&text&type=phone_number&app_absent=0" target="_blank" class="text-blue-600 text-4xl">
-                        <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+                    <a href="https://api.whatsapp.com/send/?phone=62881027104776&text&type=phone_number&app_absent=0" 
+                    target="_blank" 
+                    class="text-6xl py-4 px-5 rounded-full hover:bg-blue-500 transition duration-300">
+                        <i class="fa-brands fa-whatsapp text-white"></i>
                     </a>
-                    <a href="https://www.instagram.com/roroananda/" target="_blank" class="text-pink-500 text-4xl">
-                        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+
+                    <a href="https://www.instagram.com/roroananda/" 
+                    target="_blank" 
+                    class="text-6xl py-4 px-5 rounded-full hover:bg-blue-500 transition duration-300">
+                        <i class="fa-brands fa-instagram text-white"></i>
                     </a>
                 </div>
             </section>
